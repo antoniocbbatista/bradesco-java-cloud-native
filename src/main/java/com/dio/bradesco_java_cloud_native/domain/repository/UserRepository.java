@@ -1,4 +1,7 @@
 package com.dio.bradesco_java_cloud_native.domain.repository;
 
-public interface UserRepository {
+import com.dio.bradesco_java_cloud_native.domain.model.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserRepository extends JpaRepository<User, Long> {
 }

@@ -1,4 +1,7 @@
 package com.dio.bradesco_java_cloud_native.domain.model;
 
-public class Feature {
+import jakarta.persistence.Entity;
+
+@Entity(name = "tb_feature")
+public class Feature extends BaseItem{
 }
